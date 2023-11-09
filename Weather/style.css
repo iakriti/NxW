@@ -10,7 +10,7 @@ body{
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: #212529;
+  background-image: linear-gradient(to right top, #00d4ff, #00a4ea, #0074cf, #0044aa, #090979);
 }
 ::selection{
   color: #fff;
@@ -18,18 +18,28 @@ body{
 }
 .wrapper{
   width: 400px;
-  background: #fff;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 7px;
   box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.05);
 }
 .wrapper header{
   display: flex;
-  font-size: 21px;
+  font-size: 40px;
   font-weight: 500;
-  color: #c7b00b;
+  color: #bee5eb;
   padding: 16px 15px;
   align-items: center;
   border-bottom: 1px solid #ccc;
+}
+header{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 header i{
   font-size: 0em;
@@ -101,17 +111,16 @@ header i{
   font-size: 19px;
   padding: 0 15px;
   background: #fff;
+  border-radius: 20px;
 }
 .input-part button{
-  color: #fff;
+  color: #bee5eb;
   cursor: pointer;
-  background: #212529;
+  background: #00afef;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 7px;
   transition: 0.3s ease;
 }
-.input-part button:hover{
-  background: #212529;
-}
-
 .wrapper .weather-part{
   display: none;
   margin: 30px 0 0;
@@ -200,35 +209,24 @@ header i{
   position: fixed;
   bottom: 40px;
   right: 40px;
-  background: #fff;
+  background:#090979;
   border-radius: 7px;
   box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.05);
 }
-.go_back a:visited{
-  text-decoration: none;
-}
-.go_back a:link{
-  text-decoration: none;
-}
-.go_back a:hover{
-    text-decoration: none;
-}
-.go_back a:active{
-  text-decoration: none;
-}
 .go-back .link p{
   text-decoration: none;
-  color: #c7b00b;
+  color: #bee5eb;
 }
 .go-back .link{
   height: 1px;
   width: 100%;
   margin: 25px 0;
-  background: #fff;
+  background: #090979;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 7px;
   box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.05);
+  text-decoration: none;
 }
