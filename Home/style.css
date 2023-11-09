@@ -1,0 +1,51 @@
+div{
+    /* border: 2px solid red; */
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+body{
+    background-color: rgba(11, 18, 30, 1);
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+}
+.text{
+    width: 40vw;
+}
+.icons{
+    width: 60vw;
+}
+.news,.weather{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text{
+    padding-left: 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heading{
+    font-size: 10rem;
+}
+.subheading{
+    font-size: 2rem;
+}
+.cardweather,.cardnews{
+    background-color: rgba(32, 43, 60, 1);
+    height: 40vh;
+    width: 30vw;
+    border-radius: 15px;
+    border-radius: 16px;
+    backdrop-filter: blur(10px);
+}
