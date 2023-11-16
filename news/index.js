@@ -198,7 +198,9 @@ function displayNews() {
         card.className = "p-2";
 
         var image = document.createElement('img');
-        image.setAttribute("height","matchparent");
+        image.setAttribute("height","200px");
+        image.style.borderRadius="20px";
+        image.style.paddingBottom="12px"
         image.setAttribute("width","100%");
         image.src=news.urlToImage;
 
@@ -207,14 +209,17 @@ function displayNews() {
         var newsHeading = document.createElement('h5');
         newsHeading.className = "card-title";
         newsHeading.innerHTML = news.title;
+        newsHeading.style.fontWeight="700"
 
         var dateHeading = document.createElement('h6');
-        dateHeading.className = "text-primary";
+        // dateHeading.className = "text-primary";
         dateHeading.innerHTML = date[0];
+        newsHeading.style.color="black";
 
         var discription = document.createElement('p');
-        discription.className="text-muted";
+        // discription.className="text-muted";
         discription.innerHTML = news.description;
+        discription.style.color="black";
 
         var link = document.createElement('a');
         link.className="btn btn-dark";
