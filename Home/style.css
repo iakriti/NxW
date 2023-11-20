@@ -89,3 +89,35 @@ canvas {
     background: rgba(32, 43, 60, 1);
     position: absolute;
   }
+
+/* @media only screen and (max-width:620px){
+    .main{
+        flex-direction: column;
+        height: 100vh;
+        width: 100vw;
+    }
+    .news,.weather{
+        height: 30vh;
+        width: 50vw;
+        display: flex;
+    }
+    .heading{
+        font-size: 4rem;
+    }
+    .subheading{
+        font-size: 1.2rem;
+    }
+    .icons{
+        display: flex;
+        padding: 5px;
+        width: 80vw;
+        height: 60vw;
+    }
+    .cardweather,.cardnews{
+        background-color: rgba(32, 43, 60, 1);
+        width: 80vw;
+        border-radius: 15px;
+        border-radius: 16px;
+        backdrop-filter: blur(10px);
+    }
+} */
