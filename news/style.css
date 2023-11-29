@@ -9,17 +9,19 @@
 }
 .navbar-brand{
     color: cornflowerblue !important;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 700;
 }
 #newsQuery,#searchBtn{
     border-radius: 20px;
     color: cornflowerblue !important;
     outline-color: cornflowerblue !important;;
+    font-size: 16px;
 }
 .nav-link{
     color: cornflowerblue !important;
     font-weight: 500;
+    font-size: 20px;
 }
 #navb{
     position: sticky  !important;
@@ -31,4 +33,17 @@ body{
     background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     
+}
+.foottext{
+    color:cornflowerblue !important;
+}
+#newsType h4{
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    color: darkcyan;
+    font-size: 40px;
+    padding: 4px;
+    width: 70%;
+    border-bottom: 4px solid;
 }
